@@ -11,9 +11,6 @@
 
 # # Вариант 2:
 
-import string
-
-
 dec_number = int(input('Введите десятичное число -> '))
 
 def dec_to_bin(dec_num:int):
