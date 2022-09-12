@@ -10,7 +10,7 @@ n = int(input("Задайте длину списка чисел -> "))
 
 def create_list(length: int, min_value: int, max_value: int):
     result = []
-    for i in range(0, n):
+    for i in range(0, length):
         result.append(r.randint(min_value, max_value))
     return result
 
